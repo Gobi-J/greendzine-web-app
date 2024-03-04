@@ -1,0 +1,38 @@
+.day-details{
+    margin-block: 20px;
+    .data{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 30px;
+        p{
+            font-size: 14px;
+        }
+        span{
+            color: #36A546;
+            font-size: 14px;
+        }
+    }
+    progress[value] {
+        --color: #36A54680; 
+        --background: #303533;
+      
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        margin: 0 10px;
+        border-radius: 10em;
+        background: var(--background);
+      }
+      progress[value]::-webkit-progress-bar {
+        border-radius: 10em;
+        background: var(--background);
+      }
+      progress[value]::-webkit-progress-value {
+        border-radius: 10em;
+        background: var(--color);
+      }
+      progress[value]::-moz-progress-bar {
+        border-radius: 10em;
+        background: var(--color);
+      }
+}
